@@ -96,6 +96,7 @@ public class WhenWritingReadableAssertions {
         List<String> colors = Arrays.asList("red","green","blue");
 
         // Check that the list contains "red"
+        assertThat(colors).contains("red");
 
     }
 
